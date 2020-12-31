@@ -1,0 +1,186 @@
+/*n@charset "UTF-8";
+:root {
+  --primary: #bd5d38;
+} */
+
+body{
+      
+    text-align: center; 
+    
+    
+}
+
+#home-bg{
+    
+    background-image: url("../img/original-blurred.png");
+    background-position: center;
+    background-size: cover;
+       
+}
+
+.admin-bg{
+    
+    background-image: url("../img/recreate.png");
+    background-position: right;
+    background-size: cover;
+    background-repeat: repeat;
+       
+}
+
+
+
+#side-nav-bar-logo{
+    
+    width: 70px;
+    
+}
+
+.side-nav-bar>div{
+    
+    color: #ffffff;
+    font-size: 11px;
+    
+}
+
+@media (min-width: 992px){
+    
+    .side-nav-bar{
+
+        position: relative;
+        top: 0;
+        left: 0;
+
+    }
+    
+    ul li:hover, .dropdown-item:hover{
+        
+        background-color: #4a1919;
+        
+    }
+    
+    
+    
+}
+
+@media (min-width: 768px){
+    
+    .limit-height{
+        
+        min-height: 650px;
+        
+    }
+    
+    
+    
+}
+
+@media (max-width: 991px){
+    
+    
+    .dropdown-item:hover{
+        
+        background-color: inherit;
+        
+    }
+    
+}
+
+@media (max-width: 767px){
+    
+    .fix-position{
+        
+        position: fixed;
+        
+    }
+    
+    .card{
+        
+        background-color: rgba(255, 255, 255, .35);
+        
+        
+    }
+    
+    .card, .form-control{
+        
+        border: 1px solid #c4c4c4 !important;
+        
+    }
+    
+    .admin-bg{
+        
+        
+    }
+    
+}
+
+nav, .dropdown-item{
+
+    font-weight: bold;
+    
+}
+
+
+nav, h2, footer>p, .card{
+    
+    font-family: "Times New Roman";
+    
+}
+
+h2, p, .dropdown-item, .dropdown-item:hover, .card-header, .btn-bg, .btn-bg:hover{
+    
+    color: #ffffff;
+    
+}
+
+h2{
+    
+    text-shadow: 2px 2px black;
+    
+}
+
+nav, .dropdown-menu, .card-header, .btn-bg, .btn-primary{
+    
+    background-color: #661e1f;
+    
+}
+
+
+ul li, .card{
+    
+    text-align: left;
+    
+}
+
+.card, .form-control{
+    
+    border: 2px solid #c4c4c4;
+    border-radius: 10px;
+    
+}
+
+
+.btn-bg:hover, .btn-bg:active, .btn-primary:hover, .btn-primary:active{
+    
+    background-color: #4a1919;
+       
+}
+
+
+#logo{
+    
+     width: 200px;
+    
+}
+
+#admin-login-logo{
+    
+    width: 100px;
+    margin-top: -50px;
+    
+}
+
+.form-group-row-admin{
+    
+    margin-top: -20px;
+    
+}
